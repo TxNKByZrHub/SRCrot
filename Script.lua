@@ -74,8 +74,8 @@ spawn(function()
 	end
 end)
 
--- if health <= 0 then stop _G.farm until EquipT then run _G.farm  ยังแก้ไม่เป็นแปลว่าคนเขียนโง่
-
+-- if health <= 0 then stop _G.farm until EquipT then run _G.farm  ยังแก้ไม่เป็น
+-- ลืมใส่ setspawnpoint มีบัคอีกเยอะ
 --------------------------------------------
 
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/SixZensED/Discord-Library/main/Library"))()
